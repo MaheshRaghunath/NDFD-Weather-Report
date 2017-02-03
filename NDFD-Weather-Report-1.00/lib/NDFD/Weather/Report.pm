@@ -1169,7 +1169,7 @@ None.
 
 =head1 AUTHOR
 
-Mahesh Raghunath, E<lt>maheshrp777@gmail.comE<gt>
+Mahesh Raghunath
 
 =head1 COPYRIGHT AND LICENSE
 

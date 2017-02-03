@@ -11,7 +11,7 @@ WriteMakefile(
                             LWP::Simple=>6.00}, # e.g., Module::Name => 1.1
     ($] >= 5.005 ?     ## Add these new keywords supported since 5.005
       (ABSTRACT_FROM  => 'lib/NDFD/Weather/Report.pm', # retrieve abstract from module
-       AUTHOR         => 'Mahesh Raghunath <maheshrp777@gmail.com>') : ()),
+       AUTHOR         => 'Mahesh Raghunath') : ()),
 );
 META_MERGE      => {
         no_index => {
@@ -21,7 +21,7 @@ META_MERGE      => {
             license     =>      'http://dev.perl.org/licenses/',
             repository    =>      'http://search.cpan.org/~blackwind/',
             bugtracker  =>      'https://rt.cpan.org/Public/Dist/Display.html?Name=NDFD-Weather-Report',
-            'Email' =>    'maheshrp777@gmail.com',            
+            'Email' =>    'blackwind@cpan.com',            
         },
         keywords => ['SOAP with Weather','SOAP Weather integration','Weather integration',
         'SOAP Weather integration with wsdl','Weather','NDFD','NDFD::Weather::Report',
